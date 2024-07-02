@@ -1,4 +1,4 @@
-<h1>🚀 Novo Projeto: Página Interativa da Starbucks 🚀</h1>
+<h1>🚀 Página Interativa da Starbucks 🚀</h1>
 
 <p>Olá, comunidade do GitHub!</p>
 
