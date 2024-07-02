@@ -32,5 +32,5 @@
   <li><strong>ScrollReveal:</strong> Efeito de rotação suave ao rolar a página, adicionando um toque de dinamismo.</li>
 </ul>
 
-<h2><a href="https://starbucksbio.netlify.app/" target="_blank">🔗 Confira o Projeto</a>
+<h2><a href="https://davialexandrestarbio.netlify.app/" target="_blank">🔗 Confira o Projeto</a>
 </h2>
