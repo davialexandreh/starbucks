@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="./assets/logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
+  <title>Starbucks</title>
+</head>
+
+<body>
+  <!--VÍDEO-->
+  <div class="video-container">
+    <video autoplay muted loop id="bg-video">
+      <source src="./assets/video_starbucks.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo!
+    </video>
+
+    <!--LOGO-->
+    <img src="./assets/logo.svg" class="logo" alt="Logo Starbucks">
+
+    <!--GERAL-->
+    <section id="geral">
+      <!--TEXTO-->
+      <div class="conteudo">
+        <h2>It's not just Coffee <br>
+          It's <span>Starbucks</span></h2>
+        <p>Starbucks é uma das maiores e mais reconhecidas redes de café do mundo, conhecida por oferecer uma ampla
+          variedade de bebidas de café, chás e produtos de confeitaria de alta qualidade. Fundada em 1971 em Seattle,
+          Washington, a empresa tem crescido exponencialmente, operando milhares de lojas em todo o mundo. Além de
+          seus
+          cafés tradicionais, a Starbucks é famosa por suas inovações em bebidas, como os populares Frappuccinos e
+          suas
+          edições sazonais, que atraem uma vasta clientela. A marca é também conhecida por seu compromisso com a
+          sustentabilidade, investindo em práticas de comércio justo e iniciativas ecológicas, buscando impactar
+          positivamente tanto os produtores de café quanto o meio ambiente. O ambiente acolhedor e o atendimento
+          personalizado fazem do Starbucks um lugar preferido para socializar, trabalhar ou simplesmente relaxar com
+          uma
+          bebida deliciosa.</p>
+        <a href="https://www.starbucksathome.com/br/?utm_source=awin&utm_medium=afiliados&utm_term=794493&utm_campaign=bx01f6c3b00d53e23344b589f6572268&awc=28175_1719875816_c1bc0b43b7a285be154f43fa6775702c"
+          target="_blank">
+          <button> Saiba mais </button>
+        </a>
+      </div>
+
+      <section class="img-interativa">
+        <div class="circulo">
+          <img src="./assets/img1.png" class="starbucks" alt="Imagem Starbucks">
+        </div>
+
+        <!--IMAGENS PEQUENAS-->
+        <div class="menu">
+          <img src="./assets/img-pequena1.png" class="botao-menu" alt="Menu 1"
+            onclick="trocaImagem('./assets/img1.png'); trocaCor('#017143')">
+
+          <img src="./assets/img-pequena2.png" class="botao-menu" alt="Menu 2"
+            onclick="trocaImagem('./assets/img2.png'); trocaCor('#eb7495')">
+
+          <img src="./assets/img-pequena3.png" class="botao-menu" alt="Menu 3"
+            onclick="trocaImagem('./assets/img3.png'); trocaCor('#d752b1')">
+        </div>
+
+      </section>
+    </section>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
