@@ -2,8 +2,7 @@
 
 <p>Olá, comunidade do GitHub!</p>
 
-<p>Estou entusiasmado em compartilhar meu mais recente projeto de desenvolvimento web: uma página interativa inspirada
-  na Starbucks. Este projeto destaca várias habilidades-chave em HTML, CSS e JavaScript, criando uma experiência de
+<p>Uma página interativa inspirada na Starbucks. Este projeto destaca várias habilidades-chave em HTML, CSS e JavaScript, criando uma experiência de
   usuário dinâmica e visualmente atraente.</p>
 
 <h2>💡 Tecnologias Utilizadas:</h2>
